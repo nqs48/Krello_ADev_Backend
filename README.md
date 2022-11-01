@@ -1,4 +1,4 @@
- # Krello Management Tasks: Backend
+  # Krello Management Tasks: Backend
 Demo project where developments a website is carried out, based on the popular activity management tool **trello**. Activities such as creating, deleting and updating boards, task management based on the canva model are emulated.
 
 ---
@@ -101,9 +101,9 @@ This section contains the platforms that were used for the project.
 ### Backend
 * [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/)
 * [Java JDK 17 Version ](https://www.oracle.com/java/technologies/downloads/)
-* [Java Springboot]()
-* [MySQL](https://www.mysql.com/)
-* [JPA Java Persistance Application]()
+* [Java Springboot](https://start.spring.io/)
+* [MySQLWorkbench](https://www.mysql.com/products/workbench/)
+* [JPA Java Persistance Application](https://start.spring.io/)
 
 ---
 
@@ -114,16 +114,16 @@ Install each one the pieces of software previously mentioned (Git).
 
 1. Clone the repo
 
-- HTTPS
-   ```
-   $ git clone https://github.com/nqs48/Krello_ADev_Backend.git
-   ```
+      - HTTPS
+         ```
+         $ git clone https://github.com/nqs48/Krello_ADev_Backend.git
+         ```
 
 
-- SSH
-   ```
-   $ git clone git@github.com:nqs48/Krello_ADev_Backend.git
-   ```
+      - SSH
+         ```
+         $ git clone git@github.com:nqs48/Krello_ADev_Backend.git
+         ```
    
 2. Open the project with IntelliJIdea IDE (In the backend directory)
 
@@ -131,7 +131,12 @@ Install each one the pieces of software previously mentioned (Git).
    $ idea .
    ```
    
-3. Configure your datasource, user and password in aplication properties file.
+3.  Run script [`my-krello.sql`](https://github.com/nqs48/Krello_ADev_Frontend/blob/main/assets/db/my-krello.sql) in a management database (Workbench).
+     ```
+     $ run my-krello.sql
+     ```
+   
+4. Configure your datasource, user and password in aplication properties file.
 
    ```
     spring.datasource.url=jdbc:mysql://localhost:{yourPort}/{yourDatabase}
@@ -153,22 +158,19 @@ Install each one the pieces of software previously mentioned (Git).
 
 Install each one the pieces of software previously mentioned (Git).
 
-
 1. Clone the repo
 
-- HTTPS 
+      - HTTPS
+         ```
+         $ git clone https://github.com/nqs48/Krello_ADev_Frontend.git
+         ```
 
-   ```
-   $ git clone https://github.com/nqs48/Krello_ADev_Frontend.git
-   ```
-   
- - SSH
- 
-   ```
-   $ git clone git@github.com:nqs48/Krello_ADev_Frontend.git
-   ```
- 
- 
+
+      - SSH
+         ```
+         $ git clone git@github.com:nqs48/Krello_ADev_Frontend.git
+         ```
+         
 2. Open the project with VisualStudio Code (In the root proyect directory)
 
    ```
