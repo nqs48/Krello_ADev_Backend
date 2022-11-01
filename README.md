@@ -1,4 +1,4 @@
- # Krello - Management Tasks
+ # Krello Management Tasks: Backend
 Demo project where developments a website is carried out, based on the popular activity management tool **trello**. Activities such as creating, deleting and updating boards, task management based on the canva model are emulated.
 
 ---
@@ -14,7 +14,9 @@ Responsive design of a dynamic web page, where you can manage activities and tas
 - Landing page with JavaScript Vanilla
 
 
-
+<p align="center">
+<a href=""><img src="https://img.shields.io/badge/Click to webpage-219ebc?style=for-the-badge" width="20%"/></a>
+</p>
 
 ---
 
@@ -24,104 +26,112 @@ Responsive design of a dynamic web page, where you can manage activities and tas
 
 Responsive design of a dynamic web page with the available boards.
 
-![image](https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/GetBoards_y7rgjz.png)
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/GetBoards_y7rgjz.png" width="70%"> 
 
-
----
-
-## CREATE BOARD:
-
-### Form to create board
-
-Board and task creation with a name field, and event control. 
-
-![image]()
+</p>
 
 ---
 
-## DETAILS TASK:
+### Create board
 
-### Update task details
+Board and task creation with a name field, and event control.
+
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1667322645/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/board_form_h4c0sq.jpg" width="70%"> 
+
+</p>
+
+---
+
+### Update Task
 
 See the details of the task and updade it.
 
-![image](https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTask_oin6r5.png)
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTask_oin6r5.png" width="70%"> 
+
+</p>
+
+---
 
 
-### Delivery date: Calendar selection
+### Delivery date
 
 Status to validate the new date to delivery task.
 
-![image](https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTaskCalendar_bwxilc.png)
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTaskCalendar_bwxilc.png" width="70%"> 
 
+</p>
 
-### Selction of a new state progress task
+### State Task
 
 You can update the state of the task, choosing the new column name.
 
-![image](https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTaskColumn_chl7is.png)
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/UpdateTaskColumn_chl7is.png" width="70%"> 
 
+</p>
 
 ---
 
-## DELETE BOARD:
-
-### Delete some board
+### Delete Board
 
 Deleting a board that has activities or not.
 
-![image](https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/RenderBoard_qx6mod.png)
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1659336926/Sofka%20Assets/Training%20Leagues/API%20SpringBoot-JavaScript/RenderBoard_qx6mod.png" width="70%"> 
 
+</p>
 
 ---
-
-
 
 ## Built With
 
 This section contains the platforms that were used for the project.
 
-* [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/)
-* [Git](https://git-scm.com/)
+
+### Frontend
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 * [Local Storage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-* [Java JDK 18 Version ](https://www.oracle.com/java/technologies/downloads/)
+* [Tailwind CSS](https://tailwindui.com/)
+* [JS OOP](https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/)
 
+### Backend
+* [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/)
+* [Java JDK 17 Version ](https://www.oracle.com/java/technologies/downloads/)
+* [Java Springboot]()
+* [MySQL](https://www.mysql.com/)
+* [JPA Java Persistance Application]()
 
-### Installation
+---
 
-Install each one the pieces of software previously mentioned.
+### Installation for **Backend Project**
+
+Install each one the pieces of software previously mentioned (Git).
 
 
 1. Clone the repo
 
 - HTTPS
    ```
-   $ git clone https://github.com/JulianEscobar9608/reto-final-desarrollo-web.git
+   $ git clone https://github.com/nqs48/Krello_ADev_Backend.git
    ```
 
 
 - SSH
    ```
-   $ git clone git@github.com:JulianEscobar9608/reto-final-desarrollo-web.git
-   ```
-
-
-2. Open the project with VisualStudio Code (In the frontend directory)
-
-   ```
-   $ open .
+   $ git clone git@github.com:nqs48/Krello_ADev_Backend.git
    ```
    
-
-3. Open the project with IntelliJIdea IDE (In the backend directory)
+2. Open the project with IntelliJIdea IDE (In the backend directory)
 
    ```
-   $ open .
-   
+   $ idea .
    ```
    
-4. Configure your datasource, user and password in aplication properties file.
+3. Configure your datasource, user and password in aplication properties file.
 
    ```
     spring.datasource.url=jdbc:mysql://localhost:{yourPort}/{yourDatabase}
@@ -132,21 +142,56 @@ Install each one the pieces of software previously mentioned.
    ```
 
    
-5. Run the project with te IDE.
+4. Run the project with te IDE.
 
    ```
    $ run MyKrelloApplication 
-   
-   ``` 
-   
-4. Open the localhost port 3000 in your preference browser
+   ```   
+---
+
+### Installation for **Frontend Project**
+
+Install each one the pieces of software previously mentioned (Git).
+
+
+1. Clone the repo
+
+- HTTPS 
 
    ```
-   http://localhost:3000/
-   
+   $ git clone https://github.com/nqs48/Krello_ADev_Frontend.git
    ```
-
    
+ - SSH
+ 
+   ```
+   $ git clone git@github.com:nqs48/Krello_ADev_Frontend.git
+   ```
+ 
+ 
+2. Open the project with VisualStudio Code (In the root proyect directory)
+
+   ```
+   $ code .
+   ```
+   
+3. Install Extension for VsCode <Live Server>
+
+   ```
+   https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+   ```
+   
+4. Click on live server option (down in the window) 
+
+   ```
+   The browser will be open automatically
+   ```
+   
+5. Open the localhost port 5500 in your preference browser
+
+   ```
+   http://localhost:5500/
+   ```
 
 ---
 
