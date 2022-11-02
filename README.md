@@ -15,7 +15,7 @@ Responsive design of a dynamic web page, where you can manage activities and tas
 
 
 <p align="center">
-<a href=""><img src="https://img.shields.io/badge/Click to webpage-219ebc?style=for-the-badge" width="20%"/></a>
+<img src="https://img.shields.io/badge/Click to webpage-219ebc?style=for-the-badge" width="20%"/>
 </p>
 
 ---
